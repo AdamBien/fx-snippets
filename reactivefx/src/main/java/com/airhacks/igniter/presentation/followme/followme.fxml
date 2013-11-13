@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.input.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" minHeight="180.0" prefHeight="192.0" prefWidth="525.0" styleClass="airpad" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.airhacks.igniter.presentation.followme.FollowmePresenter">
+  <children>
+    <Label id="message" fx:id="a" layoutX="70.0" layoutY="14.0" prefHeight="39.0" prefWidth="347.0" text="A simplest possible afterburner.fx application" />
+    <Button fx:id="launch" layoutX="141.0" layoutY="134.0" mnemonicParsing="false" onAction="#launch" text="Launch" />
+    <TextField fx:id="b" layoutX="70.0" layoutY="63.0" prefWidth="200.0" />
+    <TextField fx:id="c" layoutX="70.0" layoutY="96.0" prefWidth="200.0" />
+  </children>
+</AnchorPane>
